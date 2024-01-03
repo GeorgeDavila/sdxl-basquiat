@@ -1,0 +1,27 @@
+# Configuration for Cog
+build:
+  gpu: true
+  python_version: "3.11"
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "ffmpeg"
+    - "libsm6"
+    - "libxext6"
+  python_packages:
+    - "torch==2.0.0"
+    - "diffusers==0.22.1"
+    - "transformers==4.35.0"
+    - "accelerate==0.24.1"
+    - "einops==0.7.0"
+    - "torchvision"
+    - "safetensors"
+    - "pandas"
+
+  run:
+    - apt-get update && apt-get install -y git-lfs
+    - git lfs install
+    - mkdir sdxlModel
+    - mkdir loras
+    
+predict: "predict.py:Predictor"
+
