@@ -9,5 +9,9 @@ My cog deployment of my stable-diffusion-xl-base-1.0 Lora finetuned on Basquiat 
 Trigger word: BASQUIAT
 
 ## Lora Outputs
+
+"A BASQUIAT painting"
 ![bas1](images/bas1.png)
 
+"A colorful BASQUIAT painting"
+![bas2](images/bas2.png)
