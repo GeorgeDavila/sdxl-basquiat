@@ -10,7 +10,7 @@ from diffusers import StableDiffusionXLPipeline
 
 base_model_path = "stabilityai/stable-diffusion-xl-base-1.0"
 LoRA_PATH = "GDavila/sdxl-basquiat"
-LoRA_file = "basquiat.safetensors"
+LoRA_file = "lora.safetensors"
 device = "cuda"
 MODEL_CACHE = "model-cache"
 
