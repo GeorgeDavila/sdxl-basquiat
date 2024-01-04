@@ -10,11 +10,12 @@ Trigger word: BASQUIAT
 
 ## Lora Outputs
 
+"A BASQUIAT painting of a cat, rainbow background"
+![bas6](images/bas6.png)
+
 "A BASQUIAT painting of a spaceship, rainbow background"
 ![bas7](images/bas7.png)
 
 "A BASQUIAT painting of people dancing, pink background"
 ![bas8](images/bas8.png)
 
-"A BASQUIAT painting of people dancing, pink background"
-![bas8](images/bas8.png)
